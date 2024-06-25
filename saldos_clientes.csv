@@ -1,0 +1,29 @@
+Cliente,Saldo
+Cliente 1,1983
+Cliente 2,2738
+Cliente 3,3911
+Cliente 4,1099
+Cliente 5,1039
+Cliente 6,1310
+Cliente 7,3610
+Cliente 8,1192
+Cliente 9,4798
+Cliente 10,1697
+
+Clasificacion,Cliente,Saldo
+Categoría Baja,Cliente 1,1983
+Categoría Baja,Cliente 4,1099
+Categoría Baja,Cliente 5,1039
+Categoría Baja,Cliente 6,1310
+Categoría Baja,Cliente 8,1192
+Categoría Baja,Cliente 10,1697
+Categoría Media,Cliente 2,2738
+Categoría Media,Cliente 3,3911
+Categoría Media,Cliente 7,3610
+Categoría Alta,Cliente 9,4798
+
+Estadistica,Valor,Cliente
+Saldo mas alto,4798,Cliente 9
+Saldo mas bajo,1039,Cliente 5
+Saldo promedio,2337.7
+Media geometrica,2016.72
