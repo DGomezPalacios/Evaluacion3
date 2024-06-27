@@ -2,8 +2,8 @@ import random
 import csv
 from scipy.stats import gmean
 
-#Lista de clientes (puede ser cualquier identificador de cliente, aquí uso números para simplicidad)
-clientes = [f"Cliente {i}" for i in range(1, 11)]
+# Lista de clientes con nombres específicos
+clientes = ["Oslo", "Vito", "Nala", "Chavela", "Tonino", "Toto", "Moka", "Manchas", "Cloe", "Kona"]
 
 #Función para generar saldos aleatorios
 def generar_saldos_aleatorios(clientes):
@@ -22,13 +22,13 @@ def clasificar_saldos(saldos):
     for cliente, saldo in saldos.items():
         #Si el saldo es menor a 2000, se clasifica como 'Bajo' y se agrega al diccionario de clasificación
         if saldo < 2000:
-            clasificacion['Categoría Baja'].append((cliente, saldo))
+            clasificacion['Categoria Baja'].append((cliente, saldo))
         #Si el saldo está entre 2000 y 4000 inclusive, se clasifica como 'Medio' y se agrega al diccionario de clasificación
         elif 2000 <= saldo <= 4000:
-            clasificacion['Categoría Media'].append((cliente, saldo))
+            clasificacion['Categoria Media'].append((cliente, saldo))
         #Si el saldo es mayor a 4000, se clasifica como 'Alto' y se agrega al diccionario de clasificación
         else:
-            clasificacion['Categoría Alta'].append((cliente, saldo))
+            clasificacion['Categoria Alta'].append((cliente, saldo))
     return clasificacion
 
 
@@ -72,13 +72,13 @@ def mostrar_clasificacion():
 def mostrar_estadisticas():
     print("\nEstadisticas de saldos:")
     print("------------------------------------")
-    print(f"# Saldo más alto:    ${saldo_mas_alto:<15} (Cliente: {cliente_mas_alto}) #")
+    print(f" Saldo más alto:    ${saldo_mas_alto:<15} (Cliente: {cliente_mas_alto}) ")
     print("------------------------------------")
-    print(f"# Saldo más bajo:    ${saldo_mas_bajo:<15} (Cliente: {cliente_mas_bajo}) #")
+    print(f" Saldo más bajo:    ${saldo_mas_bajo:<15} (Cliente: {cliente_mas_bajo}) ")
     print("------------------------------------")
-    print(f"# Saldo promedio:    ${saldo_promedio:<15} #")
+    print(f" Saldo promedio:    ${saldo_promedio:<15} ")
     print("------------------------------------")
-    print(f"# Media geométrica:  ${media_geometrica:<15} #")
+    print(f" Media geométrica:  ${media_geometrica:<15} ")
     print("------------------------------------")
 
 
