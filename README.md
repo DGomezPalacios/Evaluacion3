@@ -19,3 +19,6 @@ Este programa genera saldos aleatorios para una lista de clientes, clasifica est
 -Visualización de saldos, clasificación y estadísticas.
 
 -Exportación de los resultados a un archivo CSV.
+
+
+PD: se sacaron las tildes de algunas palabras por temas cosméticos en el archivo csv
