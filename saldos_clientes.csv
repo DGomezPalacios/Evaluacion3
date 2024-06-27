@@ -1,29 +1,29 @@
 Cliente,Saldo
-Cliente 1,1983
-Cliente 2,2738
-Cliente 3,3911
-Cliente 4,1099
-Cliente 5,1039
-Cliente 6,1310
-Cliente 7,3610
-Cliente 8,1192
-Cliente 9,4798
-Cliente 10,1697
+Oslo,1252
+Vito,4115
+Nala,3562
+Chavela,1579
+Tonino,2793
+Toto,1802
+Moka,2784
+Manchas,2017
+Cloe,2119
+Kona,4641
 
 Clasificacion,Cliente,Saldo
-Categoría Baja,Cliente 1,1983
-Categoría Baja,Cliente 4,1099
-Categoría Baja,Cliente 5,1039
-Categoría Baja,Cliente 6,1310
-Categoría Baja,Cliente 8,1192
-Categoría Baja,Cliente 10,1697
-Categoría Media,Cliente 2,2738
-Categoría Media,Cliente 3,3911
-Categoría Media,Cliente 7,3610
-Categoría Alta,Cliente 9,4798
+Categoria Baja,Oslo,1252
+Categoria Baja,Chavela,1579
+Categoria Baja,Toto,1802
+Categoria Media,Nala,3562
+Categoria Media,Tonino,2793
+Categoria Media,Moka,2784
+Categoria Media,Manchas,2017
+Categoria Media,Cloe,2119
+Categoria Alta,Vito,4115
+Categoria Alta,Kona,4641
 
 Estadistica,Valor,Cliente
-Saldo mas alto,4798,Cliente 9
-Saldo mas bajo,1039,Cliente 5
-Saldo promedio,2337.7
-Media geometrica,2016.72
+Saldo mas alto,4641,Kona
+Saldo mas bajo,1252,Oslo
+Saldo promedio,2666.4
+Media geometrica,2458.1

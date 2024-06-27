@@ -17,7 +17,7 @@ def generar_saldos_aleatorios(clientes):
 #Función para clasificar saldos
 def clasificar_saldos(saldos):
     #Se crea un diccionario para clasificar los saldos en tres categorías: baja, media y alta
-    clasificacion = {'Categoría Baja': [], 'Categoría Media': [], 'Categoría Alta': []}
+    clasificacion = {'Categoria Baja': [], 'Categoria Media': [], 'Categoria Alta': []}
     #Se itera sobre cada cliente y su saldo en el diccionario de saldos
     for cliente, saldo in saldos.items():
         #Si el saldo es menor a 2000, se clasifica como 'Bajo' y se agrega al diccionario de clasificación
